@@ -30,6 +30,8 @@ const Intro = () => {
     </a>
          <a href="https://www.linkedin.com/in/yuliy-sozin-0409b719a/" target="_blank" rel="noopener noreferrer" ><img className={styles.twitter} src="linkedin.svg" alt=""/></a>
         <a href="https://github.com/DrJulik" target="_blank" rel="noopener noreferrer"><img className={styles.twitter} src="github.svg" alt=""/></a>  
+        <a href="https://www.youtube.com/channel/UCeXeDbQp6NA5b4yAAPGa49w" target="_blank" rel="noopener noreferrer"><img className={styles.twitter} src="youtube.svg" alt=""/></a>  
+        <a href="https://dribbble.com/DrJULIK" target="_blank" rel="noopener noreferrer"><img className={styles.twitter} src="dribbble.svg" alt=""/></a>  
           
         </motion.div>
 

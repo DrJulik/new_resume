@@ -5,13 +5,14 @@ const Project = ({
   title,
   main_image,
   description,
+  link,
   stacks,
   github,
   url,
   dribbble,
 }: any) => {
   return (
-    <article className="project">
+    <article className="project" onClick={() => window.open(link)} >
       {main_image && (
         <img className="project-img" src={main_image} alt="" />
         // <Image
