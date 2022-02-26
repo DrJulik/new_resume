@@ -10,7 +10,10 @@ const Projects = () => {
         </h2>
         <p>
           If you're looking for a junior level to-do apps, just reach out to me.
-          I'll be more than happy to code you one live. Older stuff at the bottom. No recent projects, since I like to actually enjoy life outside of work hours. Would love to work on some of these though (React pdf renderer).
+          I'll be more than happy to code you one live. Older stuff at the
+          bottom. No recent projects, since I like to actually enjoy life
+          outside of work hours. Would love to work on some of these though
+          (React pdf renderer).
         </p>
       </div>
 
@@ -43,10 +46,7 @@ const Projects = () => {
           title="Learning on the Job: The blog"
           description="An extra to the youtube channel. Currently inactive."
           main_image="/blog.webp"
-          stacks={[
-            { id: "1", stack_description: "All kinds of things" },
-
-          ]}
+          stacks={[{ id: "1", stack_description: "All kinds of things" }]}
         />
         <Project
           title="Older custom WP themes"
@@ -58,6 +58,15 @@ const Projects = () => {
             { id: "2", stack_description: "CSS" },
             { id: "3", stack_description: "Wordpress" },
             { id: "4", stack_description: "PHP" },
+          ]}
+        />
+        <Project
+          title="Random custom sites that I still maintain"
+          description="Sometimes I just can't refuse."
+          main_image="/yt.png"
+          stacks={[
+            { id: "1", stack_description: "React" },
+            { id: "2", stack_description: "NextJS" },
           ]}
         />
         <Project
