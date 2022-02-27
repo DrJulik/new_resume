@@ -1,10 +1,10 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import About from '../components/About'
-import Intro from '../components/Intro'
-import Projects from '../components/Projects'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import About from "../components/About";
+import Intro from "../components/Intro";
+import Projects from "../components/Projects";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -15,16 +15,20 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Intro/>
-      
-      <About/>
-      
-      <Projects/>
+      <Intro />
 
-      <footer className={styles.footer}><p>This <a href="#">{" "} project</a> was built by {" "}<a href="#">{" "} me</a> using NextJS in 2022. Thank you for viewing it!</p> </footer>
+      <About />
 
+      <Projects />
+
+      <footer className={styles.footer}>
+        <p>
+          This <a href="#"> project</a> was built by <a href="#"> me</a> using
+          NextJS in 2022. Thank you for viewing it!
+        </p>{" "}
+      </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

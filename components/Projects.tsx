@@ -30,29 +30,36 @@ const Projects = () => {
             { id: "4", stack_description: "Koa" },
             { id: "5", stack_description: "MongoDB" },
           ]}
+          url="https://easypop.app/"
         />
         <Project
           title="Learning on the Job: My Youtube Experiment"
           description="Something I've started just as a challenge for myself, which I ended up enjoying quite a bit. Editing is a bitch though."
           main_image="/yt.png"
-          link="https://www.youtube.com/channel/UCeXeDbQp6NA5b4yAAPGa49w"
           stacks={[
             { id: "1", stack_description: "React" },
             { id: "2", stack_description: "NextJS" },
             { id: "5", stack_description: "MongoDB" },
           ]}
+          youtube="https://www.youtube.com/channel/UCeXeDbQp6NA5b4yAAPGa49w"
         />
         <Project
           title="Learning on the Job: The blog"
           description="An extra to the youtube channel. Currently inactive."
           main_image="/blog.webp"
           stacks={[{ id: "1", stack_description: "All kinds of things" }]}
+          url="https://mystifying-tesla-6bdf27.netlify.app/"
         />
         <Project
           title="Older custom WP themes"
           description="That's how I used to make money back in the day. Still actually like these a lot."
           main_image="/wp_1.webp"
           link="https://dribbble.com/DrJULIK"
+          dribbble={[
+            "https://dribbble.com/shots/11681302-ArchDuke",
+            "https://dribbble.com/shots/11704809-minimal",
+            "https://dribbble.com/shots/11639958-Madera",
+          ]}
           stacks={[
             { id: "1", stack_description: "HTML" },
             { id: "2", stack_description: "CSS" },
@@ -61,25 +68,22 @@ const Projects = () => {
           ]}
         />
         <Project
-          title="Random custom sites that I still maintain"
-          description="Sometimes I just can't refuse."
-          main_image="/yt.png"
+          title="My old resume"
+          description="SEE THIS FOR MORE OLDER PROJECTS. I put a bit more effort into that one over two years ago. Has a lot of stuff there, including stuff that got me my first junior position."
+          main_image="/old_resume.webp"
           stacks={[
             { id: "1", stack_description: "React" },
-            { id: "2", stack_description: "NextJS" },
+            { id: "2", stack_description: "Gatsby" },
           ]}
+          url="https://newresume.netlify.app/"
         />
         <Project
-          title="Random custom sites that I still maintain"
-          description="Labor of the last 2 years of work. We have taken everything that a Shopify user may need and bundled it into one app."
-          main_image="/yt.png"
-          stacks={[
-            { id: "1", stack_description: "React" },
-            { id: "2", stack_description: "NextJS" },
-            { id: "3", stack_description: "NodeJS" },
-            { id: "4", stack_description: "Koa" },
-            { id: "5", stack_description: "MongoDB" },
-          ]}
+          title="PDF Menu Render"
+          description="A pretty cool idea I wish I had more time to work on. The idea is to create a dashboard for client to CRUD menu items that are automatically generated into a beautiful restaurant menu. I will most definitely rework this in the future to its fullest capabilities."
+          main_image="/pdf.webp"
+          stacks={[{ id: "1", stack_description: "React" }]}
+          url="https://reactpdfmenurender.netlify.app/"
+          github="https://github.com/DrJulik/ReactMenuPdfRender"
         />
       </div>
     </section>

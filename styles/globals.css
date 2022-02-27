@@ -88,12 +88,12 @@ section.projects {
   display: grid;
   box-shadow: #4e4e4e30 1px 1px 10px 0px;
   transition: 0.3s ease-in-out;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .project:hover {
-  opacity: 0.9;
-  transform: scale(1.05);
+  opacity: 0.85;
+  /* transform: scale(1.05);  */
 }
 
 .project-img {
@@ -169,9 +169,25 @@ margin: 0.7rem 0;
   font-size: 0.85rem;
 }
 
+.project-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .project-links a {
   margin-left: 0;
 }
+
+.project-links svg {
+  transition: 0.3s linear all;
+}
+
+.project-links svg:hover {
+  opacity: 0.9;
+  transform: scale(1.12);
+}
+
 .project-icon {
   color: var(--secondary-color-light);
   font-size: 1.5rem;
