@@ -33,6 +33,18 @@ const Projects = () => {
           url="https://easypop.app/"
         />
         <Project
+          title="Password generator"
+          description="A simple password generator.You can include/exclude letters, numbers and special characters, and modify the length from 2 to 50 characters."
+          main_image="/pass_gen.png"
+          link="https://gleeful-begonia-768088.netlify.app/"
+          stacks={[
+            { id: "1", stack_description: "HTML" },
+            { id: "2", stack_description: "CSS" },
+            { id: "3", stack_description: "JavaScript" }
+          ]}
+          url="https://gleeful-begonia-768088.netlify.app/"
+        />
+        <Project
           title="Learning on the Job: My Youtube Experiment"
           description="Something I've started just as a challenge for myself, which I ended up enjoying quite a bit. Editing is a bitch though."
           main_image="/yt.png"
